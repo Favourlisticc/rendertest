@@ -5,4 +5,4 @@ const app = express()
 
 app.use('/', appp)
 
-app.listen(3000, console.log(`Server running in ${process.env.NODE_ENV} model on ${Port}`))
+app.listen(3000, console.log(`Server running in ${process.env.NODE_ENV} model on 3000`))

@@ -1,9 +1,9 @@
-const { Router } = require("express")
+const { Router } = require('express')
+const router = Router();
 
-const router = Router
 
-router.post("/", (req,res)=>{
-    res.send("HELLO")
+router.get('/', (req,res)=>{
+    res.json({"Hebvhjvhjvhjvhj" : "fcfjjhvjhv"})
 })
 
 module.exports = router
